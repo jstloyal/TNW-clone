@@ -67,3 +67,17 @@ nav {
     font-size: 2rem;
     margin-right: 2rem;
 }
+
+main {
+    width: 100%;
+}
+
+main p {
+    width: inherit;
+    background-color: #FFD700;
+    padding: 0.5rem 1rem;  
+}
+
+main p a {
+    color: #000;
+}
