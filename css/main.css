@@ -72,12 +72,65 @@ main {
     width: 100%;
 }
 
-main p {
+.p1 {
     width: inherit;
     background-color: #FFD700;
     padding: 0.5rem 1rem;  
 }
 
-main p a {
+.p1 a {
     color: #000;
 }
+
+.main-grid {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    grid-auto-rows: minmax(20rem, auto);
+    margin: 1rem;
+}
+
+.tnw {
+    grid-column: 1 / 4;
+    grid-row: 1/ 3;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tnw img {
+    width: 40rem;
+    height: 10rem;
+    margin: 1rem 0 0 3rem;
+}
+
+.tnw time {
+    font-size: 1.6rem;
+    color: #fff;
+    position: relative;
+    top: -9rem;
+    left: 20rem;
+}
+
+.reddit {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     color: #fff;
+}
+
+.microsoft {
+    grid-column: 4 / 6;
+    grid-row: 2 / 3;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+
+
+
+
+
