@@ -159,8 +159,58 @@ section h1 {
     margin: 1rem;
 }
 
+.funding {
+    grid-column: 1 / 6;
+    grid-row: 6 / 8;
+    margin: 0 auto;
+}
+
+.fund-header {
+    display: flex;
+    color: #ff0000;
+    justify-content: space-between;
+}
+
+.co-details {
+    display: flex;
+}
+
+.fund-item {
+    position: relative;
+    width: 295px;
+    height: 331px;
+    margin-right: 2rem;
+}
+
+.fund-item img {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    left: 1.5rem;
+    top: 3.5rem;
+}
+
 .fund-item h4 {
     padding: 2rem 5rem;
     background: #ff0000;
     color: #fff;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fund {
+    padding: 1.5rem 5rem;
+    background-color: rgba(255,68,34,.08);
+    text-align: center;
+}
+
+.fund2 {
+    padding: 1.4rem 5rem;
+    background-color: rgba(235, 166, 153, 0.08);
+}
+
+.fund3 {
+    padding: 1.4rem 5rem;
+    background-color: rgba(235, 166, 153, 0.08);
+    border-top: 0.1rem solid rgba(255,68,34, 0.2);
 }
