@@ -87,8 +87,8 @@ main {
     display: grid;
     grid-template-columns:repeat(5, 1fr);
     grid-auto-rows: minmax(20rem, auto);
-    margin: 0 1rem;
     gap: 0.9rem;
+    margin: 0 2rem;
 }
 
 .tnw {
@@ -214,3 +214,152 @@ section h1 {
     background-color: rgba(235, 166, 153, 0.08);
     border-top: 0.1rem solid rgba(255,68,34, 0.2);
 }
+
+.tech-news {
+    grid-column: 1 / 6;
+    grid-row: 8 / 10;
+    display: grid;
+    grid-template-columns:repeat(3, 1.5fr);
+    grid-auto-rows: minmax(20rem, auto);
+    /*margin: 0 1rem;*/
+    gap: 0.9rem;
+   margin-left: 1rem;
+}
+
+.app-content{
+    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagrammock-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+}
+
+.gear-content {
+    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/macbook-air-aesthetics-368x276.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+}
+
+.tech-content {
+    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/ai_baby_header-368x276.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+}
+
+.creative-content {
+    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+}
+
+.podium-content {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+}
+
+.insight-content {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Amazon-cloud-368x276.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+}
+
+.launch-content {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;  
+}
+
+.distract-content {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/porn-coronavirus-marketing-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem; 
+}
+    
+
+.app-desc img {
+    width: 9.6rem;
+    height: 7.4rem;
+}
+
+.app-desc div {
+    padding: 1rem 0 0 1rem;
+}
+
+.app-desc {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    background-color: rgba(235, 166, 153, 0.2);
+}
+
+.app-list {
+    padding-left: 1.5rem;
+}
+
+.app-list li {
+  border-bottom: 0.1rem solid rgba(102, 102, 102, 0.2);
+  color: #ff0000;
+  padding: 1rem 0;
+  
+}
+
+.app-list li a {
+    color: #666;
+}
+
+.meta {
+    display: flex;
+}
+
+.meta li {
+    margin-left: 3rem;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+
