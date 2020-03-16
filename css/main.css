@@ -139,19 +139,20 @@ section {
 
 section h1 {
     color: #ff0000;
+    width: 65%;
+    margin: 0 auto;
 }
 
 .my-flex {
     display: flex;
-    width: 1200px;
+    width: 65%;
     flex-wrap: wrap;
-    margin: 1rem;
+    margin: 1rem auto;
 }
 
 .my-flex img {
     width: 270px;
     height: 140px;
-    /* margin: 1rem; */
 }
 
 .flex-item {
@@ -162,7 +163,8 @@ section h1 {
 .funding {
     grid-column: 1 / 6;
     grid-row: 6 / 8;
-    margin: 0 auto;
+    margin: 10rem auto;
+    width: 65%;
 }
 
 .fund-header {
@@ -221,9 +223,8 @@ section h1 {
     display: grid;
     grid-template-columns:repeat(3, 1.5fr);
     grid-auto-rows: minmax(20rem, auto);
-    /*margin: 0 1rem;*/
-    gap: 0.9rem;
-   margin-left: 1rem;
+    margin: 10rem auto;
+    gap: 2rem;
 }
 
 .app-content{
@@ -362,4 +363,45 @@ section h1 {
     background-color: #ff0000;
 }
 
+.last-section {
+    grid-column: 1 / 6;
+    grid-row: 10 / 14;
+    margin: 10rem auto;
+}
 
+.last-section header {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+    padding-right: 8rem;
+    color: #ff0000;
+}
+
+.deals-flex {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+}
+
+.deals-item {
+    width: 270px;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.deals-item a {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.deals-item img {
+    width: 270px;
+    height: 201px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: rgb(187, 178, 178);
+}
