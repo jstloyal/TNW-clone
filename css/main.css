@@ -139,13 +139,13 @@ section {
 
 section h1 {
     color: #ff0000;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .my-flex {
     display: flex;
-    width: 65%;
+    width: 80%;
     flex-wrap: wrap;
     margin: 1rem auto;
 }
@@ -164,7 +164,7 @@ section h1 {
     grid-column: 1 / 6;
     grid-row: 6 / 8;
     margin: 10rem auto;
-    width: 65%;
+    width: 80%;
 }
 
 .fund-header {
@@ -225,6 +225,7 @@ section h1 {
     grid-auto-rows: minmax(20rem, auto);
     margin: 10rem auto;
     gap: 2rem;
+    width: 80%;
 }
 
 .app-content{
@@ -372,7 +373,7 @@ section h1 {
 .last-section header {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     padding-right: 8rem;
     color: #ff0000;
@@ -380,7 +381,7 @@ section h1 {
 
 .deals-flex {
     display: flex;
-    width: 65%;
+    width: 80%;
     flex-wrap: wrap;
     margin: 2rem auto;
 }
@@ -405,3 +406,67 @@ section h1 {
     text-decoration: line-through;
     color: rgb(187, 178, 178);
 }
+
+footer {
+  color: #fff;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-info p {
+    margin-right: 1rem;
+}
+
+.top-footer {
+    height: 16rem;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-footer {
+    height: 9.7rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tnw-footer {
+    width: 3.8rem;
+    height: 1.6rem;
+}
+
+.stackpath {
+    width: 6.5rem;
+    height: 1rem;
+}
+
+.all-icons a {
+    width: 4rem;
+    height: 4rem;
+    background-color: #333333;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.all-icons i {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+i#heart {
+    color: #ff4422;
+}
+
+
+
