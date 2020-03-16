@@ -41,7 +41,6 @@ nav {
 .bottom-nav {
     display: flex;
     justify-content: space-between;
-    /* padding: 2rem; */
 }
 
 .bottom-nav ul {
@@ -89,6 +88,7 @@ main {
     grid-auto-rows: minmax(20rem, auto);
     gap: 0.9rem;
     margin: 0 2rem;
+    max-width: ;
 }
 
 .tnw {
@@ -139,15 +139,16 @@ section {
 
 section h1 {
     color: #ff0000;
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
 }
 
 .my-flex {
     display: flex;
-    width: 80%;
+    max-width: 65%;
     flex-wrap: wrap;
-    margin: 1rem auto;
+    margin: 0rem auto;
+    padding: 2rem;
 }
 
 .my-flex img {
@@ -160,11 +161,17 @@ section h1 {
     margin: 1rem;
 }
 
+.flex-item i {
+    font-size: 0.4rem;
+    /* margin-left: 2rem; */
+    padding: 1rem;
+}
+
 .funding {
     grid-column: 1 / 6;
     grid-row: 6 / 8;
     margin: 10rem auto;
-    width: 80%;
+    width: 65%;
 }
 
 .fund-header {
@@ -238,6 +245,12 @@ section h1 {
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
 }
+
+/* .gradient {
+    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
+    background-size: cover;
+    z-index: 5;
+} */
 
 .gear-content {
     background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/macbook-air-aesthetics-368x276.png");
@@ -373,7 +386,7 @@ section h1 {
 .last-section header {
     display: flex;
     justify-content: space-between;
-    width: 80%;
+    width: 65%;
     margin: 0 auto;
     padding-right: 8rem;
     color: #ff0000;
@@ -381,7 +394,7 @@ section h1 {
 
 .deals-flex {
     display: flex;
-    width: 80%;
+    width: 65%;
     flex-wrap: wrap;
     margin: 2rem auto;
 }
