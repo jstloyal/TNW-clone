@@ -209,7 +209,9 @@ section h1 {
 
 .my-flex img {
     width: 270px;
-    height: 140px;
+    height: auto;
+    margin: 0.5rem;
+    
 }
 
 .flex-item {

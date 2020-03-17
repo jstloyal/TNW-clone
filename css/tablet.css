@@ -1,5 +1,40 @@
-.my-flex img {
-    width: 300px;
-    height: 150px;
+* {
+    box-sizing: border-box;
+}
+
+.top-nav {
+    margin-left:11.2rem;
+    padding: 0.8rem;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.bottom-nav a {
+    font-size: 1.2rem;
+}
+
+.bottom-nav i {
+    font-size: 1.2rem;
+    position: relative;
+    bottom: 1rem;
+}
+ 
+
+.bottom-nav ul {
+    padding: 1rem;
+    margin-left: 11.2rem;
+}
+
+
+.tnw-logo {
+    position: absolute;
+    height: 7.3rem;
+    bottom: 3rem;
+}
+
+.tnw-logo img {
+    margin-top: 4rem;
 }
 
