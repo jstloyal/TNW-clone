@@ -97,6 +97,7 @@ main {
     background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
 }
 
 .tnw img {
@@ -120,6 +121,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    background-blend-mode: darken;
 }
 
 .microsoft {
@@ -163,7 +165,6 @@ section h1 {
 
 .flex-item i {
     font-size: 0.4rem;
-    /* margin-left: 2rem; */
     padding: 1rem;
 }
 
@@ -239,18 +240,13 @@ section h1 {
     background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagrammock-368x276.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: rgba(0, 0, 0, 0.1);
     height: 27rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
 }
-
-/* .gradient {
-    background: transparent url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png);
-    background-size: cover;
-    z-index: 5;
-} */
 
 .gear-content {
     background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/01/macbook-air-aesthetics-368x276.png");
@@ -326,7 +322,7 @@ section h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    padding: 0 0 0.6rem 2rem; 
+    padding: 0 0 0.6rem 2rem;
 }
     
 
