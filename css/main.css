@@ -14,6 +14,7 @@ html {
 
 nav {
     width: 100%;
+    position: initial;
 }
 
 .top-nav {
@@ -43,8 +44,10 @@ nav {
 }
 
 .fixed-nav {
-    position: fixed;
+    position: sticky;
     width: 100%;
+    top: 0;
+    margin-bottom: 0.2rem;
 }
 
 .bottom-nav {
@@ -79,7 +82,6 @@ nav {
 
 main {
     width: 100%;
-    padding-top: 9rem;
 }
 
 .p1 {
@@ -534,5 +536,9 @@ i#heart {
     color: #ff4422;
 }
 
+
+@media screen and (max-width: 760px) {
+
+}
 
 
