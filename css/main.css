@@ -50,6 +50,19 @@ nav {
     margin-bottom: 0.2rem;
 }
 
+.tnw-logo {
+    width: 112px;
+    height: 60;
+    background-color: #ff0000;
+}
+
+.tnw-logo img {
+    width: 66px;
+    height: 16px;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
 .bottom-nav {
     display: flex;
     justify-content: space-between;
@@ -535,10 +548,3 @@ footer {
 i#heart {
     color: #ff4422;
 }
-
-
-@media screen and (max-width: 760px) {
-
-}
-
-
