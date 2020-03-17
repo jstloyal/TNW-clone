@@ -208,7 +208,7 @@ section h1 {
 }
 
 .my-flex img {
-    width: 270px;
+    width: 125%;
     height: auto;
     margin: 0.5rem;
     

@@ -7,6 +7,14 @@
     padding: 0.8rem;
 }
 
+.top-nav ul:nth-child(2) {
+    display: none;
+}
+
+.top-nav a {
+    font-size: 1rem;
+}
+
 .p1 {
     text-align: center;
 }
@@ -27,10 +35,17 @@
     margin-left: 11.2rem;
 }
 
+.bottom-nav ul li:nth-child(6) {
+    display: none;
+}
+
+.bottom-nav ul li:nth-child(7) {
+    display: none;
+}
 
 .tnw-logo {
     position: absolute;
-    height: 7.3rem;
+    height: 7.8rem;
     bottom: 3rem;
 }
 
@@ -38,3 +53,32 @@
     margin-top: 4rem;
 }
 
+.tnw div {
+    display: none;
+}
+
+.tnw article {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.reddit h2, .microsoft h2 {
+    font-size: 1.8rem;
+}
+
+.my-flex {
+    width: 90%;
+    justify-content: flex-start;
+}
+
+/* .my-flex img {
+    margin: 0;
+} */
+
+.flex-item {
+    width: 26%;
+    margin-right: 4.5rem;
+    /* margin: 2rem; */
+}
