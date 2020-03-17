@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 144rem;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -38,9 +42,15 @@ nav {
     color: #fff;
 }
 
+.fixed-nav {
+    position: fixed;
+    width: 100%;
+}
+
 .bottom-nav {
     display: flex;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 .bottom-nav ul {
@@ -69,6 +79,7 @@ nav {
 
 main {
     width: 100%;
+    padding-top: 9rem;
 }
 
 .p1 {
@@ -88,16 +99,35 @@ main {
     grid-auto-rows: minmax(20rem, auto);
     gap: 0.9rem;
     margin: 0 2rem;
-    max-width: ;
 }
 
 .tnw {
     grid-column: 1 / 4;
     grid-row: 1/ 3;
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg");
+    background-image: -webkit-linear-gradient(-45deg, rgba(248,80,50,1) 0%,rgba(240,47,23,1) 3%,rgba(240,47,23,1) 3%,rgba(240,47,23,1) 13%,rgba(240,47,23,1) 13%,rgba(241,111,92,1) 60%,rgba(246,41,12,1) 88%,rgba(231,56,39,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-tracker-796x417.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: darken;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tnw article {
+    margin: 0 0 1rem 3rem;
+}
+
+.tnw h2, .reddit h2, .microsoft h2 {
+    font-size: 2.5rem;
+}
+
+.time-author {
+    display: flex; 
+}
+
+.time-author p {
+    padding-right: 0.5rem;
 }
 
 .tnw img {
@@ -111,26 +141,34 @@ main {
     color: #fff;
     position: relative;
     top: -9rem;
-    left: 20rem;
+    left: 15rem;
 }
+
 
 .reddit {
     grid-column: 4 / 6;
     grid-row: 1 / 2;
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg");
+    background-image: -webkit-linear-gradient(-45deg, rgba(76,76,76,1) 0%,rgba(89,89,89,1) 12%,rgba(102,102,102,1) 25%,rgba(71,71,71,1) 39%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/TNW-Conference-PanelImg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
     background-blend-mode: darken;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0.5rem 1rem;
 }
 
 .microsoft {
     grid-column: 4 / 6;
     grid-row: 2 / 3;
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg");
+    background-image:  -webkit-linear-gradient(-45deg, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 60%,rgba(40,52,59,1) 71%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-796x419.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+    background-blend-mode: darken;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 1rem;
 }
 
 section {
@@ -141,16 +179,17 @@ section {
 
 section h1 {
     color: #ff0000;
-    width: 65%;
+    width: 82%;
     margin: 0 auto;
+    padding-left: 2rem;
 }
 
 .my-flex {
     display: flex;
-    max-width: 65%;
+    width: 82%;
     flex-wrap: wrap;
     margin: 0rem auto;
-    padding: 2rem;
+    justify-content: space-between;
 }
 
 .my-flex img {
@@ -159,7 +198,7 @@ section h1 {
 }
 
 .flex-item {
-    width: 270px;
+    width: 20%;
     margin: 1rem;
 }
 
@@ -172,13 +211,14 @@ section h1 {
     grid-column: 1 / 6;
     grid-row: 6 / 8;
     margin: 10rem auto;
-    width: 65%;
+    width: 86%;
 }
 
 .fund-header {
     display: flex;
     color: #ff0000;
     justify-content: space-between;
+    width: 86%;
 }
 
 .co-details {
@@ -187,7 +227,7 @@ section h1 {
 
 .fund-item {
     position: relative;
-    width: 295px;
+    width: 21%;
     height: 331px;
     margin-right: 2rem;
 }
@@ -237,7 +277,7 @@ section h1 {
 }
 
 .app-content{
-    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagrammock-368x276.jpg");
+    background-image:-webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagrammock-368x276.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: rgba(0, 0, 0, 0.1);
@@ -246,6 +286,8 @@ section h1 {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    background-blend-mode: darken;
+    color: #fff;
 }
 
 .gear-content {
@@ -257,21 +299,24 @@ section h1 {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    color: #fff;
 }
 
 .tech-content {
-    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/ai_baby_header-368x276.png");
+    background-image:-webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/ai_baby_header-368x276.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: darken;
     height: 27rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    color: #fff;
 }
 
 .creative-content {
-    background-image:url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
+    background-image:-webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 27rem;
@@ -279,10 +324,12 @@ section h1 {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    background-blend-mode: darken;
+    color: #fff;
 }
 
 .podium-content {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg");
+    background-image: -webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 27rem;
@@ -290,10 +337,12 @@ section h1 {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    background-blend-mode: darken;
+    color: #fff;
 }
 
 .insight-content {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Amazon-cloud-368x276.jpg");
+    background-image: -webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Amazon-cloud-368x276.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     height: 27rem;
@@ -301,21 +350,12 @@ section h1 {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    background-blend-mode: darken;
+    color: #fff;
 }
 
 .launch-content {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 27rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 0 0.6rem 2rem;  
-}
-
-.distract-content {
-    background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/porn-coronavirus-marketing-368x276.jpg");
+    background-image: -webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 27rem;
@@ -323,8 +363,31 @@ section h1 {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0 0 0.6rem 2rem;
+    background-blend-mode: darken;
+    color: #fff;
 }
-    
+
+.distract-content {
+    background-image: -webkit-linear-gradient(-45deg, rgba(206,220,231,1) 0%,rgba(89,106,114,1) 100%),url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/porn-coronavirus-marketing-368x276.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.6rem 2rem;
+    background-blend-mode: darken;
+    color: #fff;
+}
+
+.big-text {
+    font-size: 2rem;
+    font-weight: 700;
+} 
+
+.tech-news h1, .app-desc h3 {
+    color: #FF4500;
+}
 
 .app-desc img {
     width: 9.6rem;
@@ -365,13 +428,6 @@ section h1 {
     margin-left: 3rem;
 }
 
-.blue {
-    background-color: #0000ff;
-}
-
-.red {
-    background-color: #ff0000;
-}
 
 .last-section {
     grid-column: 1 / 6;
@@ -382,21 +438,22 @@ section h1 {
 .last-section header {
     display: flex;
     justify-content: space-between;
-    width: 65%;
+    width: 82%;
     margin: 0 auto;
-    padding-right: 8rem;
+    /*padding-: 18rem;*/
     color: #ff0000;
 }
 
 .deals-flex {
     display: flex;
-    width: 65%;
+    width: 82%;
     flex-wrap: wrap;
     margin: 2rem auto;
+    justify-content: space-between;
 }
 
 .deals-item {
-    width: 270px;
+    width: 20%;
     margin-right: 2rem;
     margin-bottom: 2rem;
 }
