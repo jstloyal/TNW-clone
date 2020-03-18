@@ -1,107 +1,101 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .top-nav {
-    margin-left:11.2rem;
-    padding: 0.8rem;
+  margin-left: 11.2rem;
+  padding: 0.8rem;
+}
+
+.bottom-nav ul {
+  padding: 1rem;
+  margin-left: 11.2rem;
 }
 
 .top-nav ul:nth-child(2) {
-    display: none;
+  display: none;
 }
 
 .top-nav a {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 .p1 {
-    text-align: center;
+  text-align: center;
 }
 
 .bottom-nav a {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .bottom-nav i {
-    font-size: 1.2rem;
-    position: relative;
-    bottom: 1rem;
-}
- 
-
-.bottom-nav ul {
-    padding: 1rem;
-    margin-left: 11.2rem;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 1rem;
 }
 
 .bottom-nav ul li:nth-child(6) {
-    display: none;
+  display: none;
 }
 
 .bottom-nav ul li:nth-child(7) {
-    display: none;
+  display: none;
 }
 
 .tnw-logo {
-    position: absolute;
-    height: 7.8rem;
-    bottom: 3rem;
+  position: absolute;
+  height: 7.8rem;
+  bottom: 3rem;
 }
 
 .tnw-logo img {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
 .tnw div {
-    display: none;
+  display: none;
 }
 
 .tnw article {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: flex-end;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.reddit h2, .microsoft h2 {
-    font-size: 1.8rem;
+.reddit h2,
+.microsoft h2 {
+  font-size: 1.8rem;
 }
 
 .fund-header {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
-
 .fund-item:nth-child(4) {
-    display: none;
+  display: none;
 }
 
 .tech-news {
-    grid-template-columns:repeat(2, 1.5fr);
+  grid-template-columns: repeat(2, 1.5fr);
 }
 
 .deals-flex {
-    grid-template-columns:repeat(3, 1fr);
-    width: 90%;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
 }
 
 .last-section header {
-    width: 90%;
+  width: 90%;
 }
 
-
 .my-flex {
-    grid-template-columns:repeat(3, 1fr);
-    width: 90%;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
 }
 
 .co-details {
-    grid-template-columns:repeat(3, 1fr);
-    width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
 }
-
-
-
-

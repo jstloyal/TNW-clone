@@ -1,138 +1,142 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 nav {
-    display: none;
+  display: none;
 }
 
 .bottom-nav ul li {
-    display: none;
+  display: none;
 }
 
 .p1 {
-    text-align: center;
+  text-align: center;
+  padding: 2rem;
 }
 
 .tnw-logo {
-    margin-right: 4rem;
+  margin-right: 4rem;
 }
 
 .bottom-nav i {
-    line-height: 0;
+  line-height: 0;
 }
 
 .icon-border2 {
-    position: relative;
-    display: inline-block;  
+  position: relative;
+  display: inline-block;
 }
 
 .icon-border2 i {
-    /* font-size: 1.2rem; */
-    color: #ff0000;
+  color: #f00;
 }
 
 .tnw div {
-    display: none;
+  display: none;
 }
 
 .main-grid {
-    grid-template-columns: 100%;
-    grid-auto-rows: minmax(auto);
+  display: block;
 }
 
-.tnw {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-
-.reddit {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    padding: 2rem;
-}
-
+.tnw,
+.reddit,
 .microsoft {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
-    padding-top: 3rem;
+  height: 20rem;
+  margin-bottom: 1rem;
 }
 
-section {
-    grid-row: 4;
-    margin: 2rem;
+.tnw article {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 section h1 {
-    padding-left: 0;
-    margin: 0 2rem;
-    padding-bottom: 2rem;
+  padding-left: 0;
+  margin: 0 2rem;
+  padding-bottom: 2rem;
 }
 
 .my-flex {
-    grid-template-columns:100%;
-    grid-auto-rows: minmax(10rem, auto);
-    margin: 0 2rem;
+  display: block;
+  width: 100%;
 }
 
 .my-flex img {
-    width: 25%;
-    height: 9.5rem;
+  width: 25%;
+  height: 9.5rem;
 }
 
 .flex-item {
-    display: flex;
-    margin: 0;
+  display: flex;
+  margin-bottom: 1rem;
 }
 
 .additional-content {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .additional-content p {
-    font-weight: 800;
-    font-size: 1.5rem;
+  font-weight: 800;
+  font-size: 1.5rem;
 }
 
-
 .funding {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .fund-header {
-    flex-direction: column;
-    margin-left: 1.3rem;
+  flex-direction: column;
+  margin-left: 1.3rem;
 }
 
 .co-details {
-    grid-template-columns: 1fr;
-    width: 95%;
+  grid-template-columns: 1fr;
+  width: 95%;
 }
 
 .tech-news {
-    grid-template-columns: 1fr;
-    width: 95%;
+  grid-template-columns: 1fr;
+  width: 95%;
 }
 
 .deals-flex {
-    grid-template-columns: 1fr;
-    width: 100%;
-    margin: 0;
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin: 0;
 }
 
 .last-section {
-    width: 100%;
+  width: 100%;
 }
 
 .deals-item {
-    width: 100%;
+  width: 100%;
 }
 
 .deals-item img {
-    width: 10rem;
-    height: 10rem;
-    float: left;
-    margin-right: 2rem;
-    margin-left: 0;
+  width: 10rem;
+  height: 10rem;
+  float: left;
+  margin-right: 2rem;
+  margin-left: 0;
 }
 
+.bottom-mobile-footer {
+  display: block;
+  text-align: center;
+  background-color: #000;
+  height: 12.2rem;
+  padding: 2rem 0;
+}
+
+.bottom-mobile-footer p {
+  margin-bottom: 0.7rem;
+}
+
+.bottom-footer {
+  display: none;
+}
