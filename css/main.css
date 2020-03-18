@@ -82,7 +82,16 @@ nav {
     font-size: 1.5rem;
 }
 
-.bottom-nav span {
+.border-icon {
+    display: flex;
+}
+
+.icon-border1 {
+    border-left: 0.2rem solid #989898;
+}
+
+.icon-border2 {
+    display: none;
     border-left: 0.2rem solid #989898;
 }
 
@@ -92,6 +101,7 @@ nav {
     font-size: 2rem;
     margin-right: 2rem;
 }
+
 
 main {
     width: 100%;
