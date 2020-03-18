@@ -63,6 +63,12 @@ section {
     margin: 2rem;
 }
 
+section h1 {
+    padding-left: 0;
+    margin: 0 2rem;
+    padding-bottom: 2rem;
+}
+
 .my-flex {
     grid-template-columns:100%;
     grid-auto-rows: minmax(10rem, auto);
@@ -87,3 +93,46 @@ section {
     font-weight: 800;
     font-size: 1.5rem;
 }
+
+
+.funding {
+    margin: 0 auto;
+}
+
+.fund-header {
+    flex-direction: column;
+    margin-left: 1.3rem;
+}
+
+.co-details {
+    grid-template-columns: 1fr;
+    width: 95%;
+}
+
+.tech-news {
+    grid-template-columns: 1fr;
+    width: 95%;
+}
+
+.deals-flex {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0;
+}
+
+.last-section {
+    width: 100%;
+}
+
+.deals-item {
+    width: 100%;
+}
+
+.deals-item img {
+    width: 10rem;
+    height: 10rem;
+    float: left;
+    margin-right: 2rem;
+    margin-left: 0;
+}
+
