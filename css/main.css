@@ -10,6 +10,7 @@ html {
 
 html, body {
     max-width: 144rem;
+    /*overflow-x: auto;*/
 }
 
 nav {

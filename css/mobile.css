@@ -10,11 +10,6 @@ nav {
     display: none;
 }
 
-/* .bottom-nav {
-    width: 100%;
-    /* justify-content: flex-start; */
-} */
-
 .p1 {
     text-align: center;
 }
@@ -32,7 +27,63 @@ nav {
     display: inline-block;  
 }
 
-.bar-icon i {
+.icon-border2 i {
     /* font-size: 1.2rem; */
     color: #ff0000;
+}
+
+.tnw div {
+    display: none;
+}
+
+.main-grid {
+    grid-template-columns: 100%;
+    grid-auto-rows: minmax(auto);
+}
+
+.tnw {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.reddit {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    padding: 2rem;
+}
+
+.microsoft {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    padding-top: 3rem;
+}
+
+section {
+    grid-row: 4;
+    margin: 2rem;
+}
+
+.my-flex {
+    grid-template-columns:100%;
+    grid-auto-rows: minmax(10rem, auto);
+    margin: 0 2rem;
+}
+
+.my-flex img {
+    width: 25%;
+    height: 9.5rem;
+}
+
+.flex-item {
+    display: flex;
+    margin: 0;
+}
+
+.additional-content {
+    margin-left: 1rem;
+}
+
+.additional-content p {
+    font-weight: 800;
+    font-size: 1.5rem;
 }
