@@ -200,24 +200,20 @@ section h1 {
 }
 
 .my-flex {
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows: minmax(20rem, auto);
+    gap: 1rem;
     width: 82%;
-    flex-wrap: wrap;
-    margin: 0rem auto;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .my-flex img {
-    width: 125%;
+    width: 100%;
     height: auto;
-    margin: 0.5rem;
-    
 }
 
-.flex-item {
-    width: 20%;
-    margin: 1rem;
-}
+
 
 .flex-item i {
     font-size: 0.4rem;
@@ -234,19 +230,25 @@ section h1 {
 .fund-header {
     display: flex;
     color: #ff0000;
-    justify-content: space-between;
-    width: 86%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fund-header h1 {
+    flex-grow: 1;
 }
 
 .co-details {
-    display: flex;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-auto-rows: minmax(20rem, auto);
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto
 }
 
 .fund-item {
     position: relative;
-    width: 21%;
-    height: 331px;
-    margin-right: 2rem;
 }
 
 .fund-item img {

@@ -68,21 +68,6 @@
     font-size: 1.8rem;
 }
 
-.my-flex {
-    width: 100%;
-    justify-content: flex-start;
-}
-
-
-.flex-item {
-    width: 26%;
-    margin-right: 6rem;
-}
-
-.fund-item {
-    width: 31%;
-}
-
 .fund-header {
     width: 100%;
     display: block;
@@ -100,21 +85,23 @@
 .deals-flex {
     grid-template-columns:repeat(3, 1fr);
     width: 90%;
-    /* justify-content: flex-start; */
-}
-
-.deals-item {
-    /* width: 30%;
-    margin-right: 0.5rem; */
 }
 
 .last-section header {
     width: 90%;
 }
 
-.last-section header p {
-    /* margin-right: 12rem; */
+
+.my-flex {
+    grid-template-columns:repeat(3, 1fr);
+    width: 90%;
 }
+
+.co-details {
+    grid-template-columns:repeat(3, 1fr);
+    width: 100%;
+}
+
 
 
 
