@@ -69,16 +69,51 @@
 }
 
 .my-flex {
-    width: 90%;
+    width: 100%;
     justify-content: flex-start;
 }
 
-/* .my-flex img {
-    margin: 0;
-} */
 
 .flex-item {
     width: 26%;
-    margin-right: 4.5rem;
-    /* margin: 2rem; */
+    margin-right: 6rem;
 }
+
+.fund-item {
+    width: 31%;
+}
+
+.fund-header {
+    width: 100%;
+    display: block;
+}
+
+
+.fund-item:nth-child(4) {
+    display: none;
+}
+
+.tech-news {
+    grid-template-columns:repeat(2, 1.5fr);
+}
+
+.deals-flex {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.deals-item {
+    width: 30%;
+    margin-right: 0.5rem;
+}
+
+.last-section header {
+    width: 100%;
+}
+
+.last-section header p {
+    margin-right: 12rem;
+}
+
+
+
