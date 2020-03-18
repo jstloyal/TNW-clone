@@ -98,21 +98,22 @@
 }
 
 .deals-flex {
-    width: 100%;
-    justify-content: flex-start;
+    grid-template-columns:repeat(3, 1fr);
+    width: 90%;
+    /* justify-content: flex-start; */
 }
 
 .deals-item {
-    width: 30%;
-    margin-right: 0.5rem;
+    /* width: 30%;
+    margin-right: 0.5rem; */
 }
 
 .last-section header {
-    width: 100%;
+    width: 90%;
 }
 
 .last-section header p {
-    margin-right: 12rem;
+    /* margin-right: 12rem; */
 }
 
 
