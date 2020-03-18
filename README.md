@@ -1,16 +1,15 @@
 # TNW-clone
 > What the project is about
 
-Create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy..
+This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
 > How the project was done
 
 The Lay out shows the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
 
+Uses media queries to gracefully degrade the web page as the window size is reduced.
 
-Add background image to main navbar using css
-
-![screenshot](img/smashin.png)
+![screenshot](images/TNW-Clone.png)
 
 ## Built With
 
@@ -19,7 +18,7 @@ Add background image to main navbar using css
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/blackpintz/smashing-magazine-clone/17a6a25fea5c38558caaede7d2082b6688f87f4a/index.html)
+[Live Demo Link](https://raw.githack.com/jstloyal/TNW-clone/home-page/index.html)
 
 
 ## Getting Started
@@ -55,7 +54,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-Feel free to check the [issues page](https://github.com/blackpintz/smashing-magazine-clone/issues).
+Feel free to check the [issues page](https://github.com/jstloyal/TNW-clone/issues).
 
 Contributions, issues and feature requests are welcome!
 

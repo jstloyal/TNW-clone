@@ -140,3 +140,7 @@ section h1 {
 .bottom-footer {
   display: none;
 }
+
+i#heart-mobile {
+    color: #f42;
+  }
