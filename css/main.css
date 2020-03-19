@@ -537,7 +537,8 @@ footer {
   margin-top: 2rem;
 }
 
-.footer-info p {
+.footer-info a {
+  color: #fff;
   margin-right: 1rem;
 }
 
