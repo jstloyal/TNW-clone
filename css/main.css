@@ -210,14 +210,19 @@ main {
 section {
   grid-column: 1 / 6;
   grid-row: 3 / 6;
-  margin: 10rem auto;
+  margin: 5rem auto;
 }
 
-section h1 {
+section h2 {
   color: #f00;
   width: 82%;
   margin: 0 auto;
-  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.additional-content p {
+  color: #000;
+  font-weight: 700;
 }
 
 .my-flex {
@@ -242,7 +247,7 @@ section h1 {
 .funding {
   grid-column: 1 / 6;
   grid-row: 6 / 8;
-  margin: 10rem auto;
+  margin: 5rem auto;
   width: 86%;
 }
 
@@ -309,7 +314,7 @@ section h1 {
   display: grid;
   grid-template-columns: repeat(3, 1.5fr);
   grid-auto-rows: minmax(20rem, auto);
-  margin: 10rem auto;
+  margin: 5rem auto;
   gap: 2rem;
   width: 80%;
 }
@@ -473,7 +478,7 @@ section h1 {
 .last-section {
   grid-column: 1 / 6;
   grid-row: 10 / 14;
-  margin: 10rem auto;
+  margin: 5rem auto;
 }
 
 .last-section header {
