@@ -68,6 +68,7 @@ nav {
 }
 
 .tnw-logo {
+  display: none;
   width: 112px;
   height: 60;
   background-color: #f00;
@@ -453,7 +454,7 @@ section h2 {
 }
 
 .deals-item a {
-  color: #666;
+  color: #000;
   font-size: 1.5rem;
 }
 
@@ -487,6 +488,10 @@ section h2 {
   width: 82%;
   margin: 0 auto;
   color: #f00;
+}
+
+.last-section header h2 {
+  margin-left: 0;
 }
 
 .deals-flex {

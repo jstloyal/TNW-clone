@@ -43,6 +43,7 @@
 }
 
 .tnw-logo {
+  display: block;
   position: absolute;
   height: 7.8rem;
   bottom: 3rem;
