@@ -108,7 +108,15 @@ section h1 {
 
 .tech-news {
   grid-template-columns: 1fr;
-  width: 95%;
+  width: 100%;
+}
+
+.div-width {
+  width: 100%;
+}
+
+.app-content, .gear-content, .tech-content, .creative-content, .podium-content, .insight-content, .launch-content, .distract-content {
+  height: 360px;
 }
 
 .deals-flex {
