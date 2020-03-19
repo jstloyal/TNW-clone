@@ -149,6 +149,12 @@ main {
   margin: 0 0 1rem 3rem;
 }
 
+section h2 {
+  color: #f00;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
 .tnw h2,
 .reddit h2,
 .microsoft h2 {
@@ -213,12 +219,6 @@ section {
   margin: 5rem auto;
 }
 
-section h2 {
-  color: #f00;
-  margin: 0 auto;
-  padding-bottom: 1rem;
-}
-
 .additional-content {
   width: 27rem;
 }
@@ -230,7 +230,28 @@ section h2 {
   padding-bottom: 1.2rem;
 }
 
-.additional-content small, .additional-content small a {
+.deals-item a {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.all-icons a {
+  width: 4rem;
+  height: 4rem;
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.footer-info a {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.additional-content small,
+.additional-content small a {
   color: #666;
   font-weight: 500;
 }
@@ -258,13 +279,11 @@ section h2 {
   grid-column: 1 / 6;
   grid-row: 6 / 8;
   margin: 5rem auto;
-  /*width: 86%;*/
 }
 
 .fund-header {
   display: flex;
   color: #f00;
-  /*width: 90%;*/
   margin: 0 auto;
 }
 
@@ -278,7 +297,6 @@ section h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(20rem, auto);
   gap: 1rem;
-  /*width: 90%;*/
   margin: 0 auto;
 }
 
@@ -467,21 +485,6 @@ section h2 {
   padding-left: 1.5rem;
 }
 
-.deals-item a {
-  color: #000;
-  font-size: 1.5rem;
-}
-
-.all-icons a {
-  width: 4rem;
-  height: 4rem;
-  background-color: #333;
-  padding: 1rem;
-  color: #fff;
-  border-radius: 50%;
-  margin-right: 0.5rem;
-}
-
 .app-list li a {
   color: #666;
 }
@@ -499,7 +502,6 @@ section h2 {
 .last-section header {
   display: flex;
   justify-content: space-between;
-  /*width: 82%;*/
   margin: 0 auto;
   color: #f00;
 }
@@ -511,7 +513,6 @@ section h2 {
 .deals-flex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /*width: 82%;*/
   gap: 2rem;
   margin: 0 auto;
 }
@@ -539,11 +540,6 @@ footer {
   justify-content: center;
   padding: 1rem;
   margin-top: 2rem;
-}
-
-.footer-info a {
-  color: #fff;
-  margin-right: 1rem;
 }
 
 .top-footer {

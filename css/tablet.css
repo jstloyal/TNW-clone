@@ -86,9 +86,6 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.last-section header {
-}
-
 .my-flex {
   grid-template-columns: repeat(3, 1fr);
 }

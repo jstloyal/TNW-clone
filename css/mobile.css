@@ -94,12 +94,12 @@ section h1 {
   margin-left: 1.3rem;
 }
 
-.fund-item:nth-child(4) {
-  display: none;
-}
-
 .fund-item {
   width: 100%;
+}
+
+.fund-item:nth-child(4) {
+  display: none;
 }
 
 .co-details {
@@ -115,7 +115,14 @@ section h1 {
   width: 100%;
 }
 
-.app-content, .gear-content, .tech-content, .creative-content, .podium-content, .insight-content, .launch-content, .distract-content {
+.app-content,
+.gear-content,
+.tech-content,
+.creative-content,
+.podium-content,
+.insight-content,
+.launch-content,
+.distract-content {
   height: 360px;
 }
 
