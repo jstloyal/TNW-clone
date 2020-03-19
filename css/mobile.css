@@ -67,8 +67,8 @@ section h1 {
 }
 
 .my-flex img {
-  width: 25%;
-  height: 9.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
 }
 
 .flex-item {
@@ -94,9 +94,16 @@ section h1 {
   margin-left: 1.3rem;
 }
 
+.fund-item:nth-child(4) {
+  display: none;
+}
+
+.fund-item {
+  width: 100%;
+}
+
 .co-details {
-  grid-template-columns: 1fr;
-  width: 95%;
+  display: block;
 }
 
 .tech-news {
@@ -119,8 +126,8 @@ section h1 {
 }
 
 .deals-item img {
-  width: 10rem;
-  height: 10rem;
+  width: 7.5rem;
+  height: 7.5rem;
   float: left;
   margin-right: 2rem;
   margin-left: 0;

@@ -84,16 +84,13 @@
 
 .deals-flex {
   grid-template-columns: repeat(3, 1fr);
-  width: 90%;
 }
 
 .last-section header {
-  width: 90%;
 }
 
 .my-flex {
   grid-template-columns: repeat(3, 1fr);
-  width: 90%;
 }
 
 .co-details {

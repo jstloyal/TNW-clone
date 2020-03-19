@@ -8,11 +8,6 @@ html {
   font-size: 62.5%;
 }
 
-html,
-body {
-  max-width: 144rem;
-}
-
 nav {
   width: 100%;
   position: initial;
@@ -216,14 +211,24 @@ section {
 
 section h2 {
   color: #f00;
-  width: 82%;
   margin: 0 auto;
   padding-bottom: 1rem;
 }
 
-.additional-content p {
+.additional-content {
+  width: 27rem;
+}
+
+.content-desc {
   color: #000;
   font-weight: 700;
+  display: block;
+  padding-bottom: 1.2rem;
+}
+
+.additional-content small, .additional-content small a {
+  color: #666;
+  font-weight: 500;
 }
 
 .my-flex {
@@ -231,13 +236,13 @@ section h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(20rem, auto);
   gap: 1rem;
-  width: 82%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .my-flex img {
-  width: 100%;
-  height: auto;
+  width: 27rem;
+  height: 13.5rem;
 }
 
 .flex-item i {
@@ -249,18 +254,19 @@ section h2 {
   grid-column: 1 / 6;
   grid-row: 6 / 8;
   margin: 5rem auto;
-  width: 86%;
+  /*width: 86%;*/
 }
 
 .fund-header {
   display: flex;
   color: #f00;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0 auto;
 }
 
 .fund-header h1 {
   flex-grow: 1;
+  font-weight: 800;
 }
 
 .co-details {
@@ -268,12 +274,13 @@ section h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: minmax(20rem, auto);
   gap: 1rem;
-  width: 90%;
+  /*width: 90%;*/
   margin: 0 auto;
 }
 
 .fund-item {
   position: relative;
+  width: 30rem;
 }
 
 .fund-item img {
@@ -317,7 +324,10 @@ section h2 {
   grid-auto-rows: minmax(20rem, auto);
   margin: 5rem auto;
   gap: 2rem;
-  width: 80%;
+}
+
+.div-width {
+  width: 39.2rem;
 }
 
 .app-content {
@@ -485,7 +495,7 @@ section h2 {
 .last-section header {
   display: flex;
   justify-content: space-between;
-  width: 82%;
+  /*width: 82%;*/
   margin: 0 auto;
   color: #f00;
 }
@@ -497,17 +507,17 @@ section h2 {
 .deals-flex {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 82%;
+  /*width: 82%;*/
   gap: 2rem;
   margin: 0 auto;
 }
 
 .deals-item {
-  width: 100%;
+  width: 29.4rem;
 }
 
 .deals-item img {
-  width: 100%;
+  width: 29.4rem;
   height: auto;
 }
 
