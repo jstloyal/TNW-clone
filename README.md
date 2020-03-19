@@ -18,7 +18,7 @@ Uses media queries to gracefully degrade the web page as the window size is redu
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/jstloyal/TNW-clone/home-page/index.html)
+[Live Demo Link](https://rawcdn.githack.com/jstloyal/TNW-clone/b52c1ba35aa0ee973836793bc770ee3682e7a489/index.html)
 
 
 ## Getting Started
