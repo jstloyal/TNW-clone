@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: none;
+}
+
+.bottom-nav ul li {
+  display: none;
+}
+
+.p1 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.tnw-logo {
+  display: block;
+  margin-right: 4rem;
+}
+
+.bottom-nav i {
+  line-height: 0;
+}
+
+.icon-border2 {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-border2 i {
+  color: #f00;
+}
+
+.tnw div {
+  display: none;
+}
+
+.main-grid {
+  display: block;
+}
+
+.tnw,
+.reddit,
+.microsoft {
+  height: 20rem;
+  margin-bottom: 1rem;
+}
+
+.tnw article {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+section h1 {
+  padding-left: 0;
+  margin: 0 2rem;
+  padding-bottom: 2rem;
+}
+
+.my-flex {
+  display: block;
+  width: 100%;
+}
+
+.my-flex img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.flex-item {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.additional-content {
+  margin-left: 1rem;
+}
+
+.additional-content p {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.funding {
+  margin: 0 auto;
+}
+
+.fund-header {
+  flex-direction: column;
+  margin-left: 1.3rem;
+}
+
+.fund-item {
+  width: 100%;
+}
+
+.fund-item:nth-child(4) {
+  display: none;
+}
+
+.co-details {
+  display: block;
+}
+
+.tech-news {
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+
+.div-width {
+  width: 100%;
+}
+
+.app-content,
+.gear-content,
+.tech-content,
+.creative-content,
+.podium-content,
+.insight-content,
+.launch-content,
+.distract-content {
+  height: 360px;
+}
+
+.deals-flex {
+  grid-template-columns: 1fr;
+  width: 100%;
+  margin: 0;
+}
+
+.last-section {
+  width: 100%;
+}
+
+.deals-item {
+  width: 100%;
+}
+
+.deals-item img {
+  width: 7.5rem;
+  height: 7.5rem;
+  float: left;
+  margin-right: 2rem;
+  margin-left: 0;
+}
+
+.bottom-mobile-footer {
+  display: block;
+  text-align: center;
+  background-color: #000;
+  height: 12.2rem;
+  padding: 2rem 0;
+}
+
+.bottom-mobile-footer p {
+  margin-bottom: 0.7rem;
+}
+
+.bottom-footer {
+  display: none;
+}
+
+i#heart-mobile {
+  color: #f42;
+}

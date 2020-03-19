@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+.top-nav {
+  margin-left: 11.2rem;
+  padding: 0.8rem;
+}
+
+.bottom-nav ul {
+  padding: 1rem;
+  margin-left: 11.2rem;
+}
+
+.top-nav ul:nth-child(2) {
+  display: none;
+}
+
+.top-nav a {
+  font-size: 1rem;
+}
+
+.p1 {
+  text-align: center;
+}
+
+.bottom-nav a {
+  font-size: 1.2rem;
+}
+
+.bottom-nav i {
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 1rem;
+}
+
+.bottom-nav ul li:nth-child(6) {
+  display: none;
+}
+
+.bottom-nav ul li:nth-child(7) {
+  display: none;
+}
+
+.tnw-logo {
+  display: block;
+  position: absolute;
+  height: 7.8rem;
+  bottom: 3rem;
+}
+
+.tnw-logo img {
+  margin-top: 4rem;
+}
+
+.tnw div {
+  display: none;
+}
+
+.tnw article {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.reddit h2,
+.microsoft h2 {
+  font-size: 1.8rem;
+}
+
+.fund-header {
+  width: 100%;
+  display: block;
+}
+
+.fund-item:nth-child(4) {
+  display: none;
+}
+
+.tech-news {
+  grid-template-columns: repeat(2, 1.5fr);
+}
+
+.deals-flex {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.my-flex {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.co-details {
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
