@@ -163,6 +163,11 @@ main {
   padding-right: 0.5rem;
 }
 
+.tnw-date {
+  display: flex;
+  justify-content: space-between;
+}
+
 .tnw img {
   width: 40rem;
   height: 10rem;
@@ -172,9 +177,8 @@ main {
 .tnw time {
   font-size: 1.6rem;
   color: #fff;
-  position: relative;
-  top: -9rem;
-  left: 15rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
 }
 
 .reddit {
